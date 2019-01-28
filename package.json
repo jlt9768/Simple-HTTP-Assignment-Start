@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "simple http assignment",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+      "pretest" :"eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlt9768/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "James Troup",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlt9768/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/jlt9768/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  }
+}
